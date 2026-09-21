@@ -21,6 +21,7 @@
         <java.version>17</java.version>
         <mybatis-plus.version>3.5.15</mybatis-plus.version>
         <minio.version>9.0.3</minio.version>
+        <okhttp.version>5.3.2</okhttp.version>
     </properties>
 
     <dependencies>
@@ -45,6 +46,11 @@
             <groupId>io.minio</groupId>
             <artifactId>minio</artifactId>
             <version>${minio.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>${okhttp.version}</version>
         </dependency>
         <dependency>
             <groupId>org.flywaydb</groupId>
@@ -81,3 +87,4 @@
         </plugins>
     </build>
 </project>
+
